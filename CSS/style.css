@@ -15,6 +15,10 @@ body {
 
 /* Globales*/
 
+img {
+    max-width: 100%;
+}
+
 .contenedor {
     /* equivale a 1200px */
     max-width: 120rem;
@@ -132,4 +136,15 @@ h4 {
 
 .icono h3 {
     text-transform: uppercase;
+}
+
+
+/** anuncios **/
+
+.contenido-anuncios {
+    display: flex;
+}
+
+.anuncio {
+    flex-basis: calc(33.3% - 1rem);
 }
